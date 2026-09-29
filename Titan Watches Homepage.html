@@ -3,207 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Titan Watches - timeless design, modern precision.">
+  <meta name="theme-color" content="#ffffff">
   <title>Titan Watches</title>
-    <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="header-container">
-      <!-- Logo -->
-      <div class="logo" id="mobileMenu">
-        <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw97cc8113/images/hamburger.svg">
-        <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwa9f878fe/images/header/titan-logo.svg" alt="Titan Logo">
+      <div class="logo">
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw97cc8113/images/hamburger.svg" alt="">
+        </button>
+        <img class="logo-img" src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwa9f878fe/images/header/titan-logo.svg" alt="Titan Logo">
       </div>
 
-      <!-- Search Bar -->
       <div class="search-bar">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-</svg>
-<div id="sachin">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
-  <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
-  <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"/>
-</svg>
-</div>
-        <input type="text" placeholder="Search for watches...">
-        <i class="fas fa-microphone"></i>
-        <i class="fas fa-search"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        <input type="text" placeholder="Search for watches..." aria-label="Search for watches">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+          <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"/>
+        </svg>
       </div>
 
-      <!-- Icons -->
       <div class="icons">
-       <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-</svg>
-<p style="font-size: 10px;">Account</p>
-</div>
-
-<div>
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-</svg>
-<p style="font-size: 10px;"">watchlist</p>
-</div>
-
-<div>
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-</svg>
-<p style="font-size: 10px;">Cart</p>
-</div>
-<div>
-    <img height="25px" width="25px" src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw0443635b/images/icon-track-order-desktop.svg">
-    <p style="font-size: 10px;">Track order</p>
-</div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>
+          <p>Account</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg>
+          <p>Watchlist</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/></svg>
+          <p>Cart</p>
+        </div>
+        <div>
+          <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw0443635b/images/icon-track-order-desktop.svg" alt="" width="22" height="22">
+          <p>Track order</p>
+        </div>
       </div>
     </div>
 
-    <!-- Navbar -->
-    <nav id="ii">
+    <nav id="mainNav" class="main-nav" aria-label="Main">
       <ul>
         <li>Men</li>
         <li>Women</li>
         <li>Smart</li>
         <li>Accessories</li>
         <li>Sale</li>
-        <li>Gifiting</li>
-        <li>watch service</li>
-        <li>more</li>
+        <li>Gifting</li>
+        <li>Watch Service</li>
+        <li>More</li>
       </ul>
     </nav>
   </header>
-  <div id="yadav">
-    <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw33358165/images/location-capture-icon.svg">
-    <p>check abilitiy by location</p>
-  </div>
-  
-  <div id="img-section">
-    <img height="400px" width="100%" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw57d234af/images/homepage/All_Banners/Raga_Jan_D.jpg">
-    <img height="400px" width="100%" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw4b9c9eb0/images/homepage/All_Banners/cocktails_finalupdate_july_25_d.jpg">
-    <img height="400px" width="100%" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw0b0862f0/images/homepage/All_Banners/bestsellers_july_25_d.jpg">
-    <img height="400px" width="100%" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw66acdb93/images/homepage/All_Banners/Newarrivals_july_25_d.jpg">
-    <img height="400px" width="100%" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw91514aca/images/homepage/All_Banners/ClocksNew_D.jpg">
-  </div>
-  <div class="mid-img">
-    <img height="250px" width="95%px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw738b53b9/images/homepage/All_Banners/promo_banner_edge_aug_d.png">
-  </div>
-  <div class="main-div">
-    <div><img height="290px" width="583px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw203d37b3/images/TrendingFinal_Men_D.jpg"></div>
-    <div><img height="290px" width="583px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw53d4c6ee/images/TrendingFinal_Women_D.jpg"></div>
 
+  <div class="location-bar">
+    <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw33358165/images/location-capture-icon.svg" alt="" width="20" height="20">
+    <p>Check availability by location</p>
   </div>
-  <div class="div2" id="tyu">
-  <div> <img height="200px" width="1000px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2dad8d71/images/homepage/All_Banners/Mobikwik_julysale_upi_25_d.jpg"></div>
-  </div>
-  <div class="h2">
-    <h2>THE BEST WAY TO BUY THE PRODUCTS YOU LOVE</h2>
-  </div>
-  <div class="div-bhandar" id="yuo">
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw0c68edb6/images/men_.jpg"></div>
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc8887c27/images/sale_.jpg"></div>
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb8df3006/images/women.jpg"></div>
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc6fe5bf9/images/Mag_category.jpg"></div>
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1d15f863/images/Bestseller_thumb.jpg"></div>
-  <div><img height="160px" width="190px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw73a3bc3e/images/clock.jpg"></div>
-  </div>
-  </div>
-  <div class="h2div">
-    <h2>testimonials</h2>
-  </div>
-  <div class="div-text">
-    <div><p>hjkgg Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptatem assumenda fugiat quam neque voluptate, at inventore veniam mollitia eos quasi, impedit cum ratione repellat aliquam eum, nesciunt nisi iure.</p>
-      <div class="mmm">
-        <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwc3058c5c/images/testimonials-quotes-img.svg">
+
+  <main>
+    <section class="container slider" id="img-section" aria-label="Featured banners">
+      <div class="slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw57d234af/images/homepage/All_Banners/Raga_Jan_D.jpg" alt="Raga collection"></div>
+      <div class="slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw4b9c9eb0/images/homepage/All_Banners/cocktails_finalupdate_july_25_d.jpg" alt="Cocktails collection" loading="lazy" decoding="async"></div>
+      <div class="slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw0b0862f0/images/homepage/All_Banners/bestsellers_july_25_d.jpg" alt="Bestsellers" loading="lazy" decoding="async"></div>
+      <div class="slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw66acdb93/images/homepage/All_Banners/Newarrivals_july_25_d.jpg" alt="New arrivals" loading="lazy" decoding="async"></div>
+      <div class="slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw91514aca/images/homepage/All_Banners/ClocksNew_D.jpg" alt="Clocks" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="container promo">
+      <img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw738b53b9/images/homepage/All_Banners/promo_banner_edge_aug_d.png" alt="Edge promo banner">
+    </section>
+
+    <section class="container trending">
+      <div><img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw203d37b3/images/TrendingFinal_Men_D.jpg" alt="Trending for men" loading="lazy" decoding="async"></div>
+      <div><img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw53d4c6ee/images/TrendingFinal_Women_D.jpg" alt="Trending for women" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="container upi">
+      <img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2dad8d71/images/homepage/All_Banners/Mobikwik_julysale_upi_25_d.jpg" alt="UPI offer" loading="lazy" decoding="async">
+    </section>
+
+    <h2 class="section-title small">The best way to buy the products you love</h2>
+    <section class="container circles" id="yuo">
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw0c68edb6/images/men_.jpg" alt="Men" loading="lazy" decoding="async"></div>
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc8887c27/images/sale_.jpg" alt="Sale" loading="lazy" decoding="async"></div>
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb8df3006/images/women.jpg" alt="Women" loading="lazy" decoding="async"></div>
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwc6fe5bf9/images/Mag_category.jpg" alt="Magazine" loading="lazy" decoding="async"></div>
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1d15f863/images/Bestseller_thumb.jpg" alt="Bestsellers" loading="lazy" decoding="async"></div>
+      <div class="circle"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw73a3bc3e/images/clock.jpg" alt="Clocks" loading="lazy" decoding="async"></div>
+    </section>
+
+    <h2 class="section-title">Testimonials</h2>
+    <section class="container testimonials">
+      <article class="testimonial">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptatem assumenda fugiat quam neque voluptate, at inventore veniam mollitia eos quasi, impedit cum ratione repellat aliquam eum, nesciunt nisi iure.</p>
+        <span class="quote-badge"><img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwc3058c5c/images/testimonials-quotes-img.svg" alt=""></span>
+      </article>
+      <article class="testimonial">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quaerat quam illum enim obcaecati possimus nihil praesentium soluta veniam tenetur facere accusamus non, minima esse! Officia vitae fugiat ut ea!</p>
+        <span class="quote-badge"><img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwc3058c5c/images/testimonials-quotes-img.svg" alt=""></span>
+      </article>
+    </section>
+
+    <h2 class="section-title">New Arrivals</h2>
+    <section class="container new-arrivals">
+      <div class="card"><img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwebf7cbea/images/homepage/All_Banners/NA_RagaCocktails_D.jpg" alt="Raga Cocktails" loading="lazy" decoding="async"></div>
+      <div class="card"><img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd9c8ccf8/images/homepage/All_Banners/NA_Automatics_FY25_D.jpg" alt="Automatics" loading="lazy" decoding="async"></div>
+      <div class="card"><img class="card-img" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwe1690548/images/homepage/All_Banners/NA_TitanWomens_FY25_D.jpg" alt="Titan Women" loading="lazy" decoding="async"></div>
+    </section>
+
+    <h2 class="section-title">Shop By Brands</h2>
+    <section class="container brands" id="many-img">
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwca36aefa/images/homepage/Brands/Brands_TH_D.jpg" alt="Titan Heritage" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw887b4a5b/images/homepage/Brands/Brands_Sonata_D.jpg" alt="Sonata" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd98e5fb4/images/homepage/Brands/Brands_FT_D.jpg" alt="Fastrack" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1d1bc29b/images/homepage/Brands/Brands_Titan_D.jpg" alt="Titan" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2144ef22/images/homepage/Brands/Brands_Zoop_D.jpg" alt="Zoop" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw89e18899/images/homepage/Brands/Brands_AK_D.jpg" alt="Aksh" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwccde60e4/images/homepage/Brands/Brands_Police_D.jpg" alt="Police" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw01a3a949/images/homepage/Brands/Brands_KC_D.jpg" alt="Kenneth Cole" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw16cd4c63/images/homepage/Brands/Brands_Nebula_D.jpg" alt="Nebula" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw5ef351e8/images/homepage/Brands/Brands_Edge_D.jpg" alt="Edge" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3312f728/images/homepage/Brands/Brands_Xylys_D.jpg" alt="Xylys" loading="lazy" decoding="async"></div>
+      <div class="brand"><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw84a88982/images/homepage/Brands/Brands_Raga_D.jpg" alt="Raga" loading="lazy" decoding="async"></div>
+    </section>
+
+    <h2 class="section-title">Movement in Time</h2>
+    <section class="container movement">
+      <div><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw97f2774c/images/homepage/MECHANICAL_D.jpg" alt="Mechanical" loading="lazy" decoding="async"></div>
+      <div class="movement-grid">
+        <div><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw92ff408a/images/homepage/SMART_D.jpg" alt="Smart" loading="lazy" decoding="async"></div>
+        <div><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw9145d9ca/images/homepage/CHRONOGRAPH_D.jpg" alt="Chronograph" loading="lazy" decoding="async"></div>
+        <div><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2ca461e6/images/homepage/QUARTZ_D.jpg" alt="Quartz" loading="lazy" decoding="async"></div>
+        <div><img class="card-img" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw7a3bde9b/images/homepage/AUTOMATIC_D.jpg" alt="Automatic" loading="lazy" decoding="async"></div>
       </div>
-    </div>
-    <div><p>lgbtygnh Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quaerat quam illum enim obcaecati possimus nihil praesentium soluta veniam tenetur facere accusamus non, minima esse! Officia vitae fugiat ut ea!</p>
-    <div class="mmm">
-      <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwc3058c5c/images/testimonials-quotes-img.svg">
-    </div>  
-    </div>
-  </div>
-  <div class="new">
-    <h2>NEW ARRIVALS
-</h2>
-  </div>
-  <div class="divdiv">
-    <div><img height="400px" width="350px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwebf7cbea/images/homepage/All_Banners/NA_RagaCocktails_D.jpg"></div>
-    <div><img height="400px" width="350px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd9c8ccf8/images/homepage/All_Banners/NA_Automatics_FY25_D.jpg"></div>
-    <div><img height="400px" width="350px" src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwe1690548/images/homepage/All_Banners/NA_TitanWomens_FY25_D.jpg"></div>
-  </div>
-  <div class="ShopByBrands">
-    <h2>Shop By Brands</h2>
-  </div>
-  <div class="main" id="many-img">
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwca36aefa/images/homepage/Brands/Brands_TH_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw887b4a5b/images/homepage/Brands/Brands_Sonata_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwd98e5fb4/images/homepage/Brands/Brands_FT_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw1d1bc29b/images/homepage/Brands/Brands_Titan_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2144ef22/images/homepage/Brands/Brands_Zoop_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw89e18899/images/homepage/Brands/Brands_AK_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwccde60e4/images/homepage/Brands/Brands_Police_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw01a3a949/images/homepage/Brands/Brands_KC_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw16cd4c63/images/homepage/Brands/Brands_Nebula_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw5ef351e8/images/homepage/Brands/Brands_Edge_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw3312f728/images/homepage/Brands/Brands_Xylys_D.jpg" alt=""></div>
-    <div class="box"><img height="350px" width="280px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw84a88982/images/homepage/Brands/Brands_Raga_D.jpg" alt=""></div>
-  </div>
-  <div class="under">
-    <h2>Movement in Time</h2>
-  </div>
-  <div class="main1">
-    <div><img height="500px" width="570px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw97f2774c/images/homepage/MECHANICAL_D.jpg"></div>
-    <div class="main2">
-      <div><img height="235px" width="290px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw92ff408a/images/homepage/SMART_D.jpg"></div>
-      <div><img height="235px" width="290px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw9145d9ca/images/homepage/CHRONOGRAPH_D.jpg"></div>
-      <div><img height="235px" width="290px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw2ca461e6/images/homepage/QUARTZ_D.jpg"></div>
-      <div><img height="235px" width="290px" src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw7a3bde9b/images/homepage/AUTOMATIC_D.jpg"></div>
-    </div>
-  </div>
+    </section>
+  </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-content">
       <div class="footer-col">
         <h3>Titan Watches</h3>
-        <p>India's most trusted watch brand — timeless design, modern precision, crafted for every moment.</p>
+        <p>India's most trusted watch brand - timeless design, modern precision, crafted for every moment.</p>
       </div>
       <div class="footer-col">
         <h4>Shop</h4>
-        <ul>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Smart</li>
-          <li>Accessories</li>
-        </ul>
+        <ul><li>Men</li><li>Women</li><li>Smart</li><li>Accessories</li></ul>
       </div>
       <div class="footer-col">
         <h4>Help</h4>
-        <ul>
-          <li>Track Order</li>
-          <li>Watch Service</li>
-          <li>Contact Us</li>
-        </ul>
+        <ul><li>Track Order</li><li>Watch Service</li><li>Contact Us</li></ul>
       </div>
       <div class="footer-col">
         <h4>Company</h4>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-          <li>Store Locator</li>
-        </ul>
+        <ul><li>About Us</li><li>Careers</li><li>Store Locator</li></ul>
       </div>
     </div>
     <div class="footer-bottom">
       <p class="footer-copy">&copy; 2026 Titan Watches. All rights reserved.</p>
       <div class="footer-logo">
-        <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwa9f878fe/images/header/titan-logo.svg" alt="Titan Logo">
-        <p>Say Hi 👋</p>
+        <img class="footer-logo-img" src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dwa9f878fe/images/header/titan-logo.svg" alt="Titan Logo">
+        <div class="say-hi">
+          <img class="avatar" src="images/profile.png" alt="Profile photo" width="36" height="36">
+          <p>Say Hi &#128075;</p>
+        </div>
       </div>
     </div>
   </footer>
-<script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>
